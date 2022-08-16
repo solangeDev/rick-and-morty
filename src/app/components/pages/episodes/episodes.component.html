@@ -1,0 +1,7 @@
+<div class="container">
+  <ul class="episodes__list">
+    <li *ngFor="let item of episodes$ | async">
+      {{item.episode}} - {{item.name}}
+    </li>
+  </ul>
+</div>
